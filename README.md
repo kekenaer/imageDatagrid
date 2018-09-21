@@ -1,6 +1,7 @@
 # imageDatagrid
 基于jquery的图片分页列表插件
 ---------------------------
+![](https://github.com/kekenaer/imageDatagrid/blob/master/imageDatagrid.png?raw=true)  
     使用简单，样式可随自己的方式调整，基于ES5语法,即插即用，方便快捷
 一、使用步骤：
 ------------
