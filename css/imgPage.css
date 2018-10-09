@@ -1,0 +1,55 @@
+.image_datagrid,.image_datagrid *{
+	box-sizing: border-box;
+}
+.image_datagrid div:after,.image_datagrid span:after{
+	content:' ';
+	display:table;
+}
+.image_datagrid{
+	width: 100%;
+	font-size: 12px;
+}
+.image_datagrid .image_datagrid_list{
+	width: 100%;
+	overflow:hidden
+}
+.image_datagrid .image_datagrid_param{
+	width: 100%;
+}
+.image_datagrid .image_datagrid_list>.image_datagrid_image_container{
+	float: left;
+	width: 20%;
+	padding: 5px 5px;
+	background-color: azure;
+	overflow:hidden;
+}
+.image_datagrid .image_datagrid_list>.image_datagrid_image_container:hover{
+	background-color: antiquewhite;
+}
+.image_datagrid .image_datagrid_list>.image_datagrid_image_container .image_datagrid_container_image{
+	width: 100%;
+}
+.image_datagrid .image_datagrid_list>.image_datagrid_image_container .image_datagrid_container_image img{
+	width: 100%;
+}
+.image_datagrid .image_datagrid_list>.image_datagrid_image_container .image_datagrid_container_title{
+	width: 100%;
+	height: 20px;
+	text-align: center;
+}
+.image_datagrid .image_datagrid_param .image_datagrid_ahead,
+.image_datagrid .image_datagrid_param .image_datagrid_prev,
+.image_datagrid .image_datagrid_param .image_datagrid_current,
+.image_datagrid .image_datagrid_param .image_datagrid_next,
+.image_datagrid .image_datagrid_param .image_datagrid_last
+{
+	display:inline-block;
+	margin-left: 5px;
+	margin-right: 5px;
+	float: left;
+	cursor: pointer;
+}
+.image_datagrid .image_datagrid_param .image_datagrid_statistic{
+	float: right;
+}
+
