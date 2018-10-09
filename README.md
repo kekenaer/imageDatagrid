@@ -46,3 +46,13 @@
           picTitle:'' //图片标题
         }]       
       }
+四、获取选中的图片数组：
+---------------------------------
+ var pics = imageGrid.selectPics;
+ if(pics.length>0){
+    var html='';
+    $.each(pics, function(index, item) {
+        html+="<img src='"+item+"'>";
+    });
+    console.log(html);
+    }
